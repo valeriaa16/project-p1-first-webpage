@@ -1,1 +1,5 @@
-/* Here in the css file you'll write your styling. make sure to link the css file to the html file. */
+/* Here in the css file you'll write your styling. make sure to link the css file to the html file. If it's linked correctly you should see a light blue background. */
+
+body {
+  background-color: lightblue;
+}
