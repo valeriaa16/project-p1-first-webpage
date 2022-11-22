@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Name</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!-- dont forget to add a css file and link it here! -->
+    <!-- If you're using google fonts, that should be added here -->
+  </head>
+
+  <body>
+    <header>
+      <div class="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+
+      <div class="menu">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="contact.html">Contact</a>
+        <a href="gallery.html">Gallery</a>
+      </div>
+    </header>
+
+    <div class="header1">
+      <h1>Contact</h1>
+    </div>
+
+    <div class="paragraph2">
+      <h2>
+        Come by and say hi or write us an e-mail. We also offer our cozy space
+        for smaller work meetings, workshops or meetups. For bookings request
+        use the button below.
+      </h2>
+
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2702.1462132643974!2d8.537802899999999!3d47.37006470000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47900a01034877f5%3A0x6e33b6c5b15f93c0!2sTalacker%2015%2C%208001%20Z%C3%BCrich!5e0!3m2!1sde!2sch!4v1665252008032!5m2!1sde!2sch"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+
+      <button class="btn-booking">Booking Requests</button>
+
+      <p>Our Opening Hours:</p>
+      <p>Mo: Closed</p>
+      <p>Tue to Fri: 07:30h to 17:00h</p>
+      <p>Sat to Sun: 08:30h to 18:30h</p>
+    </div>
+
+    <!--form section-->
+    <form action="http://httpbin.org/anything" method="post">
+      <h2>Get in touch</h2>
+      <fieldset>
+        <label>
+          <span>Name</span>
+          <input type="text" name="Name" required />
+        </label>
+        <label>
+          <span>E-Mail Adress</span>
+          <input type="email" name="E-Mail" />
+        </label>
+        <label>
+          <span>Date</span>
+          <input type="date" name="date" />
+        </label>
+        <label>
+          <span>Number of People</span>
+          <select name="numberOfpeople" id="">
+            <option value="one">1 person</option>
+            <option value="two">2 persons</option>
+            <option value="three">3 persons</option>
+            <option value="four">4 persons</option>
+            <option value="five">5 persons</option>
+            <option value="moreThanfive">more than 5 persons</option>
+          </select>
+        </label>
+        <label>
+          <span><p>Message</p></span>
+          <textarea
+            type="text"
+            name="message"
+            class="message"
+            required
+          ></textarea>
+        </label>
+        <button type="submit">Submit request</button>
+      </fieldset>
+    </form>
+
+    <!-- 
+      Write your code here inside the body to make it appear in the browser. 
+      Below is an example on how to use an image tag. Copy it and add it in the body, but outside the comment tag if you want to see how it looks like on the website. Then you can change the size and other styling for it in the css file.
+
+      <img src="example-recipe-background.png" alt="Banana Bread">
+
+    -->
+    <footer>
+      <div class="foot">
+        <h2>valeria ©</h2>
+        <a href="valeria@cozycorner.ch">valeria@cozycorner.ch</a>
+      </div>
+
+      <div class="foot">
+        <h2>Cozy Corner Coffee</h2>
+        <h2>Talackerstrasse 15</h2>
+        <h2>8001 Zürich</h2>
+      </div>
+      <div class="foot">
+        <a href="https://instagram.com"
+          ><img src="insta-logo.jpg" alt="insta-logo" style="width: 20%" />
+        </a>
+        <a href="https://pinterest.com">
+          <img src="pinterest.jpg" alt="pinterest" style="width: 20%" />
+        </a>
+        <a href="https://tripadvisor.com">
+          <img src="tripadvisor.jpg" alt="tripadvisor" style="width: 20%"
+        /></a>
+      </div>
+    </footer>
+  </body>
+</html>
